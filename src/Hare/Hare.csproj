@@ -76,10 +76,14 @@
     <Compile Include="Internal\VirtualHostTargetImpl.cs" />
     <Compile Include="LoginCredentials.cs" />
     <Compile Include="NewUserCharacteristics.cs" />
+    <Compile Include="Password.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scenario\CreateNewUser.cs" />
     <Compile Include="Scenario\Scenario.cs" />
+    <Compile Include="SecurityLevelAccess.cs" />
     <Compile Include="SecurityLevelBehavior.cs" />
+    <Compile Include="SecurityLevelRole.cs" />
+    <Compile Include="SecurityPassword.cs" />
     <Compile Include="Target.cs" />
     <Compile Include="VirtualHostTarget.cs" />
   </ItemGroup>

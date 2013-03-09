@@ -12,13 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-namespace Hare.Scenario
+namespace Hare
 {
     using System;
 
-    public interface CreateNewUser :
-        Scenario
+    public interface SecurityPassword
     {
-        SecurityPassword New(Action<NewUserCharacteristics> user);
+        SecurityLevelAccess With(Action<Password> access);
     }
 }

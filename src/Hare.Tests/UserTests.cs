@@ -36,6 +36,5 @@ namespace Hare.Tests
 
             Assert.IsTrue(response);
         }
-
     }
 }

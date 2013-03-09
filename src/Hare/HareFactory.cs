@@ -11,6 +11,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+
 namespace Hare
 {
     using System;
@@ -18,11 +19,11 @@ namespace Hare
 
     public static class HareFactory
     {
-         public static HareClient New(Action<HareFactoryBehavior> behavior)
-         {
-             var client = new HareClientImpl();
+        public static HareClient New(Action<HareFactoryBehavior> behavior)
+        {
+            var client = new HareClientImpl();
 
-             return client;
-         }
+            return client;
+        }
     }
 }
